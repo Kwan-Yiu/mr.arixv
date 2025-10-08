@@ -69,4 +69,4 @@ jobs:
           fi
         env:
           # Pass output directory variable from script to this step
-          OUTPUT_DIR: arxiv_vector_search_papers_2025
+          OUTPUT_DIR: papers
