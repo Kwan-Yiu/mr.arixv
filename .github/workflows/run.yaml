@@ -3,6 +3,9 @@ name: Daily arXiv Paper Downloader
 
 # Workflow trigger conditions
 on:
+  push:
+    branches:
+      - main
   # Allow manual trigger from GitHub repository Actions page
   workflow_dispatch:
   
@@ -18,6 +21,9 @@ jobs:
   download:
     # Virtual environment for task execution, using latest Ubuntu system
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
 
     # Steps included in the task
     steps:
