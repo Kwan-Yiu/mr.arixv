@@ -2,8 +2,514 @@
 
 A curated list of papers related to vector search and ANNS, automatically updated.
 
-Last updated: 2025-10-08 12:54:16
+Last updated: 2025-10-08 12:59:13
 
 ---
 
-No papers found yet. The 'paper' directory is missing.
+- **2025-10-07**: Physicochemically Informed Dual-Conditioned Generative Model of T-Cell Receptor Variable Regions for Cellular Therapy
+- **2025-10-07**: Mixing Mechanisms How Language Models Retrieve Bound Entities In-Context
+- **2025-10-07**: Fast-Convergent Proximity Graphs for Approximate Nearest Neighbor Search
+- **2025-10-07**: Downsized and Compromised Assessing the Faithfulness of Model Compression
+- **2025-10-07**: A Comparison of Star Formation Rates by Different Tracers in Nearby Galaxies
+- **2025-10-06**: Rectangular Shrinking Targets on Self-Similar Carpets
+- **2025-10-06**: Learning a Shape-adaptive Assist-as-needed Rehabilitation Policy from Therapist-informed Input
+- **2025-10-06**: Expander qLDPC Codes against Long-range Correlated Errors in Memory
+- **2025-10-05**: Learning-Based Hashing for ANN Search Foundations and Early Advances
+- **2025-10-05**: Efficient Training of Spiking Neural Networks by Spike-aware Data Pruning
+- **2025-10-04**: SAFA-SNN Sparsity-Aware On-Device Few-Shot Class-Incremental Learning with Fast-Adaptive Structure of Spiking Neural Network
+- **2025-10-04**: On Annihilator Multiplication Modules
+- **2025-10-03**: GRNND A GPU-Parallel Relative NN-Descent Algorithm for Efficient Approximate Nearest Neighbor Graph Construction
+- **2025-10-02**: On the $b$-ary expansion of a real number whose irrationality exponent is close to 2
+- **2025-10-01**: Random Feature Spiking Neural Networks
+- **2025-10-01**: Panorama Fast-Track Nearest Neighbors
+- **2025-10-01**: Analysis of Local Samples of Paracetamol at Bamako by Reflectance Near-Infrared Spectroscopy
+- **2025-09-30**: RAE A Neural Network Dimensionality Reduction Method for Nearest Neighbors Preservation in Vector Search
+- **2025-09-29**: Scalable Disk-Based Approximate Nearest Neighbor Search with Page-Aligned Graph
+- **2025-09-29**: Neuroplasticity-inspired dynamic ANNs for multi-task demand forecasting
+- **2025-09-29**: Hybrid Layer-Wise ANN-SNN With Surrogate Spike Encoding-Decoding Structure
+- **2025-09-29**: Efficient Sketching and Nearest Neighbor Search Algorithms for Sparse Vector Sets
+- **2025-09-29**: Arm events in critical planar loop soups
+- **2025-09-28**: On random bipartite graphs evolving by degrees
+- **2025-09-28**: Capacitary Muckenhoupt Weights and Weighted Norm Inequalities for Hardy-Littlewood Maximal Operators
+- **2025-09-28**: CaRe-BN Precise Moving Statistics for Stabilizing Spiking Neural Networks in Reinforcement Learning
+- **2025-09-28**: A critical stochastic heat equation with long-range noise
+- **2025-09-27**: Targeted perturbations reveal brain-like local coding axes in robustified, but not standard, ANN-based brain models
+- **2025-09-27**: Drift-Adapter A Practical Approach to Near Zero-Downtime Embedding Model Upgrades in Vector Databases
+- **2025-09-26**: SpikeMatch Semi-Supervised Learning with Temporal Dynamics of Spiking Neural Networks
+- **2025-09-26**: On the differentiability of the local time of the ($1+β$)-stable super-Brownian motion
+- **2025-09-25**: Relaxation to equilibrium of conservative dynamics II non-gradient exclusion processes
+- **2025-09-25**: Interpreting Convolutional Neural Network Activation Maps with Hand-crafted Radiomics Features on Progression of Pediatric Craniopharyngioma after
+- **2025-09-25**: Deep-learning-based Radiomics on Mitigating Post-treatment Obesity for Pediatric Craniopharyngioma Patients after Surgery and Proton Therapy
+- **2025-09-24**: The Fourth-Moment Theorem on Hilbert Spaces
+- **2025-09-24**: On the asymptotic profile of solutions to semilinear damped wave equations with critical nonlinearities
+- **2025-09-24**: FusedANN Convexified Hybrid ANN via Attribute-Vector Fusion
+- **2025-09-23**: RELATE Relation Extraction in Biomedical Abstracts with LLMs and Ontology Constraints
+- **2025-09-23**: A Knowledge Graph and a Tripartite Evaluation Framework Make Retrieval-Augmented Generation Scalable and Transparent
+- **2025-09-22**: JPResUnet A Joint Probability Density Function Translation Model in Partially Premixed Flames
+- **2025-09-22**: Individualized non-uniform quantization for vector search
+- **2025-09-22**: Hybrid Pipeline SWD Detection in Long-Term EEG Signals
+- **2025-09-20**: A central limit theorem for two-dimensional directed polymers with critical spatial correlation
+- **2025-09-19**: The random Kakutani fixed point theorem in random normed modules
+- **2025-09-19**: Low-Cost Sensor Fusion Framework for Organic Substance Classification and Quality Control Using Classification Methods
+- **2025-09-19**: Graph-Based Approximate Nearest Neighbor Search Revisited Theoretical Analysis and Optimization
+- **2025-09-18**: NEURAL An Elastic Neuromorphic Architecture with Hybrid Data-Event Execution and On-the-fly Attention Dataflow
+- **2025-09-17**: Signal Processing and Machine Learning Algorithms for Precise Timing with PICOSEC Micromegas Detectors
+- **2025-09-17**: Exploring Major Transitions in the Evolution of Biological Cognition With Artificial Neural Networks
+- **2025-09-16**: Why all roads don't lead to Rome Representation geometry varies across the human visual cortical hierarchy
+- **2025-09-16**: Spiking Vocos An Energy-Efficient Neural Vocoder
+- **2025-09-16**: Population Estimation using Deep Learning over Gandhinagar Urban Area
+- **2025-09-16**: $L^2$-solutions to stochastic reaction-diffusion equations with superlinear drifts driven by space-time white noise^
+- **2025-09-15**: Weight Mapping Properties of a Dual Tree Single Clock Adiabatic Capacitive Neuron
+- **2025-09-15**: SAQ Pushing the Limits of Vector Quantization through Code Adjustment and Dimension Segmentation
+- **2025-09-14**: Neural cellular automata applications to biology and beyond classical AI
+- **2025-09-14**: GraphDerm Fusing Imaging, Physical Scale, and Metadata in a Population-Graph Classifier for Dermoscopic Lesions
+- **2025-09-14**: A new proof on quasilinear Schrödinger equations with prescribed mass and combined nonlinearity
+- **2025-09-12**: Sculpting Topological Modes on Photonic Chips by Artificial Gauge Fields
+- **2025-09-12**: ISTASTrack Bridging ANN and SNN via ISTA Adapter for RGB-Event Tracking
+- **2025-09-12**: HetaRAG Hybrid Deep Retrieval-Augmented Generation across Heterogeneous Data Stores
+- **2025-09-12**: Gromov hyperbolicity III improved geometric characterization in Euclidean spaces and beyond
+- **2025-09-12**: Anomalous dissipation and regularization in isotropic Gaussian turbulence
+- **2025-09-11**: Superstructure Optimization with Embedded Neural Networks for Sustainable Aviation Fuel Production
+- **2025-09-11**: Noise-Robust Topology Estimation of 2D Image Data via Neural Networks and Persistent Homology
+- **2025-09-10**: SINDI an Efficient Index for Approximate Maximum Inner Product Search on Sparse Vectors
+- **2025-09-10**: Fast attention mechanisms a tale of parallelism
+- **2025-09-10**: Classification of 24-hour movement behaviors from wrist-worn accelerometer data from handcrafted features to deep learning techniques
+- **2025-09-10**: A DEM-driven machine learning framework for abrasive wear prediction
+- **2025-09-09**: Proximity Graphs for Similarity Search Fast Construction, Lower Bounds, and Euclidean Separation
+- **2025-09-09**: Filtered Approximate Nearest Neighbor Search A Unified Benchmark and Systematic Experimental Study [Experiment, Analysis & Benchmark]
+- **2025-09-09**: An extension of $F$-spaces and its applications
+- **2025-09-09**: Aligning LLMs for the Classroom with Knowledge-Based Retrieval -- A Comparative RAG Study
+- **2025-09-08**: Beyond Sequential Reranking Reranker-Guided Search Improves Reasoning Intensive Retrieval
+- **2025-09-07**: DISTRIBUTEDANN Efficient Scaling of a Single DISKANN Graph Across Thousands of Computers
+- **2025-09-06**: Toward Efficient and Scalable Design of In-Memory Graph-Based Vector Search
+- **2025-09-06**: A note on a diffeomorphism criterion via long-time Ricci flow
+- **2025-09-05**: ToM-SSI Evaluating Theory of Mind in Situated Social Interactions
+- **2025-09-05**: Biomedical Literature Q&A System Using Retrieval-Augmented Generation (RAG)
+- **2025-09-05**: An emulator-based forecasting on astrophysics and cosmology with 21 cm and density cross-correlations during EoR
+- **2025-09-03**: BAMG A Block-Aware Monotonic Graph Index for Disk-Based Approximate Nearest Neighbor Search
+- **2025-09-03**: A note on Wang's conjecture for harmonic functions with nonlinear boundary condition
+- **2025-09-02**: Guidance and Control Neural Network Acceleration using Memristors
+- **2025-09-02**: Fisher information flow in artificial neural networks
+- **2025-09-02**: Efficient Training-Free Online Routing for High-Volume Multi-LLM Serving
+- **2025-08-31**: Predicting Multi-Type Talented Students in Secondary School Using Semi-Supervised Machine Learning
+- **2025-08-31**: Performance Analysis of Supervised Machine Learning Algorithms for Text Classification
+- **2025-08-30**: CRouting Reducing Expensive Distance Calls in Graph-Based Approximate Nearest Neighbor Search
+- **2025-08-29**: Hilbert Forest in the SISAP 2025 Indexing Challenge
+- **2025-08-29**: Approximate calculation of multidimensional first passage times
+- **2025-08-28**: Ultra-Low-Latency Spiking Neural Networks with Temporal-Dependent Integrate-and-Fire Neuron Model for Objects Detection
+- **2025-08-28**: A Deep-Learning Enhanced Gappy Proper Orthogonal Decomposition Method for Conjugate Heat Transfer Problem
+- **2025-08-27**: Hardware-aware vs. Hardware-agnostic Energy Estimation for SNN in Space Applications
+- **2025-08-26**: WoW A Window-to-Window Incremental Index for Range-Filtering Approximate Nearest Neighbor Search
+- **2025-08-26**: Optimization of Latent-Space Compression using Game-Theoretic Techniques for Transformer-Based Vector Search
+- **2025-08-25**: PGTuner An Efficient Framework for Automatic and Transferable Configuration Tuning of Proximity Graphs
+- **2025-08-25**: Green functions, Hitchin's formula and curvature equations on tori
+- **2025-08-24**: Teaching AI to Remember Insights from Brain-Inspired Replay in Continual Learning
+- **2025-08-23**: Learning ON Large Datasets Using Bit-String Trees
+- **2025-08-22**: Explainable AI for Predicting and Understanding Mathematics Achievement A Cross-National Analysis of PISA 2018
+- **2025-08-22**: Attribute Filtering in Approximate Nearest Neighbor Search An In-depth Experimental Study
+- **2025-08-21**: On the Effectiveness of Graph Reordering for Accelerating Approximate Nearest Neighbor Search on GPU
+- **2025-08-21**: Gorgeous Revisiting the Data Layout for Disk-Resident High-Dimensional Vector Search
+- **2025-08-21**: GoVector An IO-Efficient Caching Strategy for High-Dimensional Vector Nearest Neighbor Search
+- **2025-08-21**: Clustering of quantum correlations at low temperature
+- **2025-08-21**: An adaptive procedure for detecting replicated signals with $k$-family-wise error rate control
+- **2025-08-20**: SMTrack End-to-End Trained Spiking Neural Networks for Multi-Object Tracking in RGB Videos
+- **2025-08-20**: Quantization Meets Spikes Lossless Conversion in the First Timestep via Polarity Multi-Spike Mapping
+- **2025-08-19**: Timestep-Compressed Attack on Spiking Neural Networks through Timestep-Level Backpropagation
+- **2025-08-19**: STAS Spatio-Temporal Adaptive Computation Time for Spiking Transformers
+- **2025-08-19**: Neuro-inspired Ensemble-to-Ensemble Communication Primitives for Sparse and Efficient ANNs
+- **2025-08-18**: From ANN to BNN Inferring Reionization Parameters using Uncertainty-aware Emulators of 21-cm Summaries
+- **2025-08-17**: SNNSIR A Simple Spiking Neural Network for Stereo Image Restoration
+- **2025-08-16**: Fully Spiking Actor-Critic Neural Network for Robotic Manipulation
+- **2025-08-14**: Quadratic Embedding Constants of Cartesian Products and Joins of Graphs
+- **2025-08-14**: Privacy-Preserving Approximate Nearest Neighbor Search on High-Dimensional Data
+- **2025-08-14**: Memorisation and forgetting in a learning Hopfield neural network bifurcation mechanisms, attractors and basins
+- **2025-08-13**: On finiteness of spectral radius order
+- **2025-08-13**: Modern Neural Networks for Small Tabular Datasets The New Default for Field-Scale Digital Soil Mapping
+- **2025-08-12**: Toward Lifelong Learning in Equilibrium Propagation Sleep-like and Awake Rehearsal for Enhanced Stability
+- **2025-08-12**: Scalable Graph Indexing using GPUs for Approximate Nearest Neighbor Search
+- **2025-08-12**: Revisiting the City Tower Project Geometric Principles and Structural Morphology in the Works of Louis I. Kahn and Anne Tyng
+- **2025-08-12**: Bio-Inspired Artificial Neural Networks based on Predictive Coding
+- **2025-08-11**: Vector-Centric Machine Learning Systems A Cross-Stack Approach
+- **2025-08-11**: Training-Free ANN-to-SNN Conversion for High-Performance Spiking Transformer
+- **2025-08-10**: Accelerating High-Dimensional Nearest Neighbor Search with Dynamic Query Preference
+- **2025-08-09**: Neural Network-Based Detection and Multi-Class Classification of FDI Attacks in Smart Grid Home Energy Systems
+- **2025-08-07**: S$^2$M-Former Spiking Symmetric Mixing Branchformer for Brain Auditory Attention Detection
+- **2025-08-06**: TDSNNs Competitive Topographic Deep Spiking Neural Networks for Visual Cortex Modeling
+- **2025-08-05**: PyLate Flexible Training and Retrieval for Late Interaction Models
+- **2025-08-05**: KBest Efficient Vector Search on Kunpeng CPU
+- **2025-08-04**: Physics-informed Fourier Basis Neural Network for Fluid Mechanics
+- **2025-08-04**: CRINN Contrastive Reinforcement Learning for Approximate Nearest Neighbor Search
+- **2025-08-03**: Data-driven ANN model for estimating unfrozen water content in the thermo-hydraulic simulation of frozen soils
+- **2025-08-02**: Balancing the Blend An Experimental Analysis of Trade-offs in Hybrid Search
+- **2025-08-01**: STF Shallow-Level Temporal Feedback to Enhance Spiking Transformers
+- **2025-08-01**: SDSNN A Single-Timestep Spiking Neural Network with Self-Dropping Neuron and Bayesian Optimization
+- **2025-08-01**: Criticality analysis of nuclear binding energy neural networks
+- **2025-07-30**: Open-Source Agentic Hybrid RAG Framework for Scientific Literature Review
+- **2025-07-29**: The Curious Case of High-Dimensional Indexing as a File Structure A Case Study of eCP-FS
+- **2025-07-29**: Suppressing Gradient Conflict for Generalizable Deepfake Detection
+- **2025-07-29**: Benchmarking Filtered Approximate Nearest Neighbor Search Algorithms on Transformer-based Embedding Vectors
+- **2025-07-28**: Anisotropic cosmology using observational datasets exploring via machine learning approaches
+- **2025-07-27**: Feed-anywhere ANN (I) Steady Discrete $to$ Diffusing on Graph Hidden States
+- **2025-07-27**: Efficient and Fault-Tolerant Memristive Neural Networks with In-Situ Training
+- **2025-07-26**: CleANN Efficient Full Dynamism in Graph-based Approximate Nearest Neighbor Search
+- **2025-07-25**: Beyond Nearest Neighbors Semantic Compression and Graph-Augmented Retrieval for Enhanced Vector Search
+- **2025-07-24**: Deepfake Detection Via Facial Feature Extraction and Modeling
+- **2025-07-23**: Threshold-Protected Searchable Sharing Privacy Preserving Aggregated-ANN Search for Collaborative RAG
+- **2025-07-23**: The impact of 2D and 3D BAO measurements on the Cosmic Distance Duality Relation with HII galaxies
+- **2025-07-23**: Strong Sparsification for 1-in-3-SAT via Polynomial Freiman-Ruzsa
+- **2025-07-23**: SHINE A Scalable HNSW Index in Disaggregated Memory
+- **2025-07-23**: Quenched scaling limit for biased random walks on random, heavy tailed conductances low dimensions
+- **2025-07-23**: PathWeaver A High-Throughput Multi-GPU System for Graph-Based Approximate Nearest Neighbor Search
+- **2025-07-22**: Fast and Scalable Gene Embedding Search A Comparative Study of FAISS and ScaNN
+- **2025-07-21**: Learning in Memristive Neural Networks
+- **2025-07-21**: Decay Properties of Invariant Measure and Application to Elliptic Homogenization of Non-divergence Form with an Interface
+- **2025-07-19**: Synthesizing Images on Perceptual Boundaries of ANNs for Uncovering Human Perceptual Variability on Facial Expressions
+- **2025-07-18**: LOVO Efficient Complex Object Query in Large-Scale Video Datasets
+- **2025-07-18**: FAMST Fast Approximate Minimum Spanning Tree Construction for Large-Scale and High-Dimensional Data
+- **2025-07-16**: SIEVE Effective Filtered Vector Search with Collection of Indexes
+- **2025-07-14**: Lightweight Model for Poultry Disease Detection from Fecal Images Using Multi-Color Space Feature Optimization and Machine Learning
+- **2025-07-14**: Large-Scale Graph Building in Dynamic Environments Low Latency and High Quality
+- **2025-07-14**: Breaking the Storage-Compute Bottleneck in Billion-Scale ANNS A GPU-Driven Asynchronous IO Framework
+- **2025-07-13**: Equiangular lines via nodal domains
+- **2025-07-12**: Cross Knowledge Distillation between Artificial and Spiking Neural Networks
+- **2025-07-10**: Machine Learning-Assisted Surrogate Modeling with Multi-Objective Optimization and Decision-Making of a Steam Methane Reforming Reactor
+- **2025-07-10**: KeyKnowledgeRAG (K^2RAG) An Enhanced RAG method for improved LLM question-answering capabilities
+- **2025-07-10**: IML-Spikeformer Input-aware Multi-Level Spiking Transformer for Speech Processing
+- **2025-07-09**: Towards Efficient and Scalable Distributed Vector Search with RDMA
+- **2025-07-09**: Scalar and Mean Curvature Comparison on Compact Cylinder
+- **2025-07-08**: On the Spectral Geometry and Small Time Mass of Anderson Models on Planar Domains
+- **2025-07-07**: Analise Semantica Automatizada com LLM e RAG para Bulas Farmaceuticas
+- **2025-07-05**: A new proof of a Liouville theorem for the one dimensional Gross-Pitaevskii equation
+- **2025-07-04**: Ranking-based Fusion Algorithms for Extreme Multi-label Text Classification (XMTC)
+- **2025-07-04**: Benchmarking Spiking Neurons for Linear Quadratic Regulator Control of Multi-linked Pole on a Cart from Single Neuron to Ensemble
+- **2025-07-03**: Red grape detection with accelerated artificial neural networks in the FPGA's programmable logic
+- **2025-07-03**: Neural Network-based Study for Rice Leaf Disease Recognition and Classification A Comparative Analysis Between Feature-based Model and Direct Imaging
+- **2025-07-02**: Frustratingly Simple Retrieval Improves Challenging, Reasoning-Intensive Benchmarks
+- **2025-07-02**: Extraction of Physical Parameters of RRab Variables using Neural Network based Interpolator
+- **2025-07-01**: WebANNS Fast and Efficient Approximate Nearest Neighbor Search in Web Browsers
+- **2025-07-01**: Overtake Detection in Trucks Using CAN Bus Signals A Comparative Study of Machine Learning Methods
+- **2025-07-01**: Nonlinear projection-based model order reduction with machine learning regression for closure error modeling in the latent space
+- **2025-07-01**: MobileRAG A Fast, Memory-Efficient, and Energy-Efficient Method for On-Device RAG
+- **2025-06-30**: Three-dimensional structural stability of shock waves in elastodynamics
+- **2025-06-30**: Optimization of Low-Latency Spiking Neural Networks Utilizing Historical Dynamics of Refractory Periods
+- **2025-06-30**: Lower deviation probabilities for supercritical multi-type Galton--Watson processes
+- **2025-06-30**: Hybrid Approach for Electricity Price Forecasting using AlexNet and LSTM
+- **2025-06-30**: Development of Hybrid Artificial Intelligence Training on Real and Synthetic Data Benchmark on Two Mixed Training Strategies
+- **2025-06-29**: Text2VectorSQL Bridging Text-to-SQL and Vector Search for Unified Natural Language Queries
+- **2025-06-29**: NaviX A Native Vector Index Design for Graph DBMSs With Robust Predicate-Agnostic Search Performance
+- **2025-06-29**: ANN-Based Grid Impedance Estimation for Adaptive Gain Scheduling in VSG Under Dynamic Grid Conditions
+- **2025-06-25**: The kernel of graph indices for vector search
+- **2025-06-25**: Proof of The TAP Free Energy for High-Dimensional Linear Regression with Spherical Priors at All Temperatures
+- **2025-06-25**: BotHash Efficient and Training-Free Bot Detection Through Approximate Nearest Neighbor
+- **2025-06-25**: A generalization of Deodhar's defect statistic for Iwahori--Hecke algebras of type $BC$
+- **2025-06-24**: Neuromorphic Wireless Split Computing with Resonate-and-Fire Neurons
+- **2025-06-24**: A Unified Platform to Evaluate STDP Learning Rule and Synapse Model using Pattern Recognition in a Spiking Neural Network
+- **2025-06-23**: Online high-precision prediction method for injection molding product weight by integrating time seriesnon-time series mixed features and feature
+- **2025-06-23**: Exploring Efficient Quantification of Modeling Uncertainties with Differentiable Physics-Informed Machine Learning Architectures
+- **2025-06-22**: Robust PDE discovery under sparse and highly noisy conditions via attention neural networks
+- **2025-06-20**: Non-uniform bounds for non-normal approximation via Stein's method with applications to the Curie--Weiss model and the imitative monomer-dimer model
+- **2025-06-19**: Semantic Outlier Removal with Embedding Models and LLMs
+- **2025-06-19**: REIS A High-Performance and Energy-Efficient Retrieval System with In-Storage Processing
+- **2025-06-19**: Fully convolutional 3D neural network decoders for surface codes with syndrome circuit noise
+- **2025-06-19**: Filter-Centric Vector Indexing Geometric Transformation for Efficient Filtered Vector Search
+- **2025-06-19**: Empowering Graph-based Approximate Nearest Neighbor Search with Adaptive Awareness Capabilities
+- **2025-06-18**: Oldies but Goldies The Potential of Character N-grams for Romanian Texts
+- **2025-06-17**: NeuroCoreX An Open-Source FPGA-Based Spiking Neural Network Emulator with On-Chip Learning
+- **2025-06-17**: Lightweight Relevance Grader in RAG
+- **2025-06-17**: HARMONY A Scalable Distributed Vector Database for High-Throughput Approximate Nearest Neighbor Search
+- **2025-06-17**: A Study of Hybrid and Evolutionary Metaheuristics for Single Hidden Layer Feedforward Neural Network Architecture
+- **2025-06-16**: Machine Learning as Iterated Belief Change a la Darwiche and Pearl
+- **2025-06-16**: EnhanceGraph A Continuously Enhanced Graph-based Index for High-dimensional Approximate Nearest Neighbor Search
+- **2025-06-15**: New tests of cosmic distance duality relation with DESI 2024 BAO observations
+- **2025-06-13**: FeNN A RISC-V vector processor for Spiking Neural Network acceleration
+- **2025-06-12**: Harnack inequality for degenerate fully nonlinear parabolic equations
+- **2025-06-11**: Energy Aware Development of Neuromorphic Implantables From Metrics to Action
+- **2025-06-10**: Protriever End-to-End Differentiable Protein Homology Search for Fitness Prediction
+- **2025-06-10**: Gamma-Ray Bursts Calibrated by Using Artificial Neural Networks from the Pantheon+ Sample
+- **2025-06-10**: Developing a Neural Network Machine Learning Interatomic Potential for Molecular Dynamics Simulations of La-Si-P Systems
+- **2025-06-10**: Agentic Neural Networks Self-Evolving Multi-Agent Systems via Textual Backpropagation
+- **2025-06-09**: SpikeSMOKE Spiking Neural Networks for Monocular 3D Object Detection with Cross-Scale Gated Coding
+- **2025-06-09**: Refined regularity at critical points for linear elliptic equations
+- **2025-06-09**: LEANN A Low-Storage Vector Index
+- **2025-06-07**: Weak and mild solutions to the MHD equations and the viscoelastic Navier-Stokes equations with damping in Wiener amalgam spaces
+- **2025-06-07**: Estimation of Electron Screening Potential in the 6Li(d,α)4He Reaction Using Multi-Layer Perceptron Neural Network
+- **2025-06-06**: Integrating Complexity and Biological Realism High-Performance Spiking Neural Networks for Breast Cancer Detection
+- **2025-06-06**: Integer Binary-Range Alignment Neuron for Spiking Neural Networks
+- **2025-06-06**: Infinity Search Approximate Vector Search with Projections on q-Metric Spaces
+- **2025-06-05**: LotusFilter Fast Diverse Nearest Neighbor Search via a Learned Cutoff Table
+- **2025-06-03**: Toward Understanding Bugs in Vector Database Management Systems
+- **2025-06-03**: SENMAP Multi-objective data-flow mapping and synthesis for hybrid scalable neuromorphic systems
+- **2025-06-03**: Quake Adaptive Indexing for Vector Search
+- **2025-06-03**: A Review of Various Datasets for Machine Learning Algorithm-Based Intrusion Detection System Advances and Challenges
+- **2025-06-01**: iVAMS 3.0 Hierarchical-Machine-Learning-Metamodel-Integrated Intelligent Verilog-AMS for Ultra-Fast, Accurate Mixed-Signal Design Optimization
+- **2025-06-01**: VecFlow A High-Performance Vector Data Management System for Filtered-Search on GPUs
+- **2025-05-31**: Comparative Analysis of QNN Architectures for Wind Power Prediction Feature Maps and Ansatz Configurations
+- **2025-05-30**: The World As Large Language Models See It Exploring the reliability of LLMs in representing geographical features
+- **2025-05-30**: Proxy Target Bridging the Gap Between Discrete Spiking Neural Networks and Continuous Control
+- **2025-05-30**: Multi-bubble solutions for the Brezis-Nirenberg problem in four dimensions
+- **2025-05-30**: GARLIC GAussian Representation LearnIng for spaCe partitioning
+- **2025-05-29**: Gradient Boosting Decision Tree with LSTM for Investment Prediction
+- **2025-05-28**: Directional $ρ$-coefficients
+- **2025-05-27**: ECC-SNN Cost-Effective Edge-Cloud Collaboration for Spiking Neural Networks
+- **2025-05-26**: Probabilistic Kernel Function for Fast Angle Testing
+- **2025-05-26**: Comparing Neural Network Encodings for Logic-based Explainability
+- **2025-05-25**: Uniqueness and nonuniqueness of $p$-harmonic Green functions on weighted $mathbf{R}^n$ and metric spaces
+- **2025-05-25**: DeepResearchGym A Free, Transparent, and Reproducible Evaluation Sandbox for Deep Research
+- **2025-05-25**: DARTH Declarative Recall Through Early Termination for Approximate Nearest Neighbor Search
+- **2025-05-24**: Riverine Flood Prediction and Early Warning in Mountainous Regions using Artificial Intelligence
+- **2025-05-23**: VIBE Vector Index Benchmark for Embeddings
+- **2025-05-23**: Time to Spike Understanding the Representational Power of Spiking Neural Networks in Discrete Time
+- **2025-05-23**: SVL Spike-based Vision-language Pretraining for Efficient 3D Open-world Understanding
+- **2025-05-23**: Locality-Sensitive Hashing for Efficient Hard Negative Sampling in Contrastive Learning
+- **2025-05-23**: HENN A Hierarchical Epsilon Net Navigation Graph for Approximate Nearest Neighbor Search
+- **2025-05-22**: Learning novel representations of variable sources from multi-modal $textit{Gaia}$ data via autoencoders
+- **2025-05-22**: LSM-VEC A Large-Scale Disk-Based System for Dynamic Vector Search
+- **2025-05-22**: Cosmos A CXL-Based Full In-Memory System for Approximate Nearest Neighbor Search
+- **2025-05-22**: A Multi-Step Comparative Framework for Anomaly Detection in IoT Data Streams
+- **2025-05-21**: Pointwise convergence of polynomial multiple ergodic averages along the primes
+- **2025-05-21**: Machine learning-based parameter optimization for Müntz spectral methods
+- **2025-05-21**: Improving the Predictability of the Madden-Julian Oscillation at Subseasonal Scales with Gaussian Process Models
+- **2025-05-20**: Physics-Guided Sequence Modeling for Fast Simulation and Design Exploration of 2D Memristive Devices
+- **2025-05-19**: Spiking Neural Networks with Random Network Architecture
+- **2025-05-19**: MSVIT Improving Spiking Vision Transformer Using Multi-scale Attention Fusion
+- **2025-05-18**: On generalized harmonic quasiconformal Koebe functions
+- **2025-05-18**: HAKES Scalable Vector Database for Embedding Search Service
+- **2025-05-18**: Dynamics and leapfrogging phenomena of multiple helical vortices for 3D incompressible Euler equations
+- **2025-05-18**: Bridging Quantized Artificial Neural Networks and Neuromorphic Hardware
+- **2025-05-17**: Efficient Vector Search on Disaggregated Memory with d-HNSW
+- **2025-05-16**: STEP A Unified Spiking Transformer Evaluation Platform for Fair and Reproducible Benchmarking
+- **2025-05-16**: Lightweight LIF-only SNN accelerator using differential time encoding
+- **2025-05-16**: Comparing Lexical and Semantic Vector Search Methods When Classifying Medical Documents
+- **2025-05-16**: Adversarially Robust Spiking Neural Networks with Sparse Connectivity
+- **2025-05-15**: SpikeVideoFormer An Efficient Spike-Driven Video Transformer with Hamming Attention and $mathcal{O}(T)$ Complexity
+- **2025-05-15**: Incorporating brain-inspired mechanisms for multimodal learning in artificial intelligence
+- **2025-05-14**: LAS Loss-less ANN-SNN Conversion for Fully Spike-Driven Large Language Models
+- **2025-05-12**: Self-cross Feature based Spiking Neural Networks for Efficient Few-shot Learning
+- **2025-05-12**: SAEN-BGS Energy-Efficient Spiking AutoEncoder Network for Background Subtraction
+- **2025-05-12**: Machine Learning-Based Detection of DDoS Attacks in VANETs for Emergency Vehicle Communication
+- **2025-05-12**: Efficient ANN-SNN Conversion with Error Compensation Learning
+- **2025-05-12**: Bang for the Buck Vector Search on Cloud CPUs
+- **2025-05-11**: Realistic Counterfactual Explanations for Machine Learning-Controlled Mobile Robots using 2D LiDAR
+- **2025-05-10**: Survey of Filtered Approximate Nearest Neighbor Search over the Vector-Scalar Hybrid Data
+- **2025-05-10**: Event-based Neural Spike Detection Using Spiking Neural Networks for Neuromorphic iBMI Systems
+- **2025-05-09**: Weak Solutions to a Sharp Interface Model for a Two-Phase Flow of Incompressible Viscous Fluids with Different Densities
+- **2025-05-09**: Sigma-Delta Neural Network Conversion on Loihi 2
+- **2025-05-09**: Intrusion Detection System Using Deep Learning for Network Security
+- **2025-05-09**: Cost-Effective, Low Latency Vector Search with Azure Cosmos DB
+- **2025-05-09**: CogniSNN A First Exploration to Random Graph Architecture based Spiking Neural Networks with Enhanced Expandability and Neuroplasticity
+- **2025-05-07**: TS-SNN Temporal Shift Module for Spiking Neural Networks
+- **2025-05-07**: In search of an interaction in the dark sector through Gaussian Process and ANN approaches
+- **2025-05-07**: Confabulation dynamics in a reservoir computer Filling in the gaps with untrained attractors
+- **2025-05-07**: Benchmarking Traditional Machine Learning and Deep Learning Models for Fault Detection in Power Transformers
+- **2025-05-06**: Synthesizing Images on Perceptual Boundaries of ANNs for Uncovering and Manipulating Human Perceptual Variability
+- **2025-05-06**: Rapid AI-based generation of coverage paths for dispensing applications
+- **2025-05-05**: Ensemble Kalman filter for uncertainty in human language comprehension
+- **2025-05-04**: Weighted minimum $α$-Green energy problems
+- **2025-05-03**: PASCAL Precise and Efficient ANN- SNN Conversion using Spike Accumulation and Adaptive Layerwise Activation
+- **2025-05-03**: In-situ and Non-contact Etch Depth Prediction in Plasma Etching via Machine Learning (ANN & BNN) and Digital Image Colorimetry
+- **2025-05-03**: Half-space Airy line ensembles
+- **2025-05-02**: Rational points near manifolds and Khintchine theorem
+- **2025-05-02**: HoneyBee Efficient Role-based Access Control for Vector Databases via Dynamic Partitioning
+- **2025-05-02**: Deep Learning-Enabled System Diagnosis in Microgrids A Feature-Feedback GAN Approach
+- **2025-05-02**: CaGR-RAG Context-aware Query Grouping for Disk-based Vector Search in RAG Systems
+- **2025-05-01**: Efficient Recommendation with Millions of Items by Dynamic Pruning of Sub-Item Embeddings
+- **2025-04-30**: Birdie Natural Language-Driven Table Discovery Using Differentiable Search Index
+- **2025-04-29**: Head-Tail-Aware KL Divergence in Knowledge Distillation for Spiking Neural Networks
+- **2025-04-29**: Efficient Graph-Based Approximate Nearest Neighbor Search Achieving Low Latency Without Throughput Loss
+- **2025-04-28**: MINT Multi-Vector Search Index Tuning
+- **2025-04-28**: A high-order recombination algorithm for weak approximation of stochastic differential equations
+- **2025-04-26**: The unification type of Lukasiewicz logic with a bounded number of variables
+- **2025-04-26**: Building Scalable AI-Powered Applications with Cloud Databases Architectures, Best Practices and Performance Considerations
+- **2025-04-25**: Central limit theorem for stochastic nonlinear wave equation with pure-jump Lévy white noise
+- **2025-04-24**: Revisiting Reset Mechanisms in Spiking Neural Networks for Sequential Modeling Specialized Discretization for Binary Activated RNN
+- **2025-04-24**: Convex order and increasing convex order for McKean-Vlasov processes with common noise
+- **2025-04-23**: Unbiased simulation of Asian options
+- **2025-04-23**: MPAD A New Dimension-Reduction Method for Preserving Nearest Neighbors in High-Dimensional Vector Search
+- **2025-04-22**: Exploring Next Token Prediction in Theory of Mind (ToM) Tasks Comparative Experiments with GPT-2 and LLaMA-2 AI Models
+- **2025-04-19**: Power Transformer Health Index and Life Span Assessment A Comprehensive Review of Conventional and Machine Learning based Approaches
+- **2025-04-19**: Efficient Spiking Point Mamba for Point Cloud Analysis
+- **2025-04-18**: Causal pieces analysing and improving spiking neural networks piece by piece
+- **2025-04-16**: Equivalence between Superharmonic functions and renormalized solutions for the equations with $(p, q)$-growth
+- **2025-04-16**: Efficient identification of linear, parameter-varying, and nonlinear systems with noise models
+- **2025-04-15**: A Machine Learning Framework for Stellar Collision Transient Identification
+- **2025-04-14**: Advancing RFI-Detection in Radio Astronomy with Liquid State Machines
+- **2025-04-14**: Adaptive Synaptogenesis Implemented on a Nanomagnetic Platform
+- **2025-04-12**: Pneuma Leveraging LLMs for Tabular Data Representation and Retrieval in an End-to-End System
+- **2025-04-12**: Physical Parameters of Stars in NGC 6397 Using ANN-Based Interpolation and Full Spectrum Fitting
+- **2025-04-11**: VectorLiteRAG Latency-Aware and Fine-Grained Resource Partitioning for Efficient RAG
+- **2025-04-10**: LAPIS A novel dataset for personalized image aesthetic assessment
+- **2025-04-09**: Deep Sturm--Liouville From Sample-Based to 1D Regularization with Learnable Orthogonal Basis Functions
+- **2025-04-08**: Up-to-constants estimates on four-arm events for simple conformal loop ensemble
+- **2025-04-08**: Quantized Artificial Neural Networks Implemented with Spintronic Stochastic Computing
+- **2025-04-08**: MicroNN An On-device Disk-resident Updatable Vector Database
+- **2025-04-08**: Existence of periodic solutions for the Grushin critical problem
+- **2025-04-07**: Nonlocal techniques for the analysis of deep ReLU neural network approximations
+- **2025-04-06**: Driving-RAG Driving Scenarios Embedding, Search, and RAG Applications
+- **2025-04-06**: ANN-Driven Adaptive Power Allocation for OWC
+- **2025-04-04**: Local Search for Clustering in Almost-linear Time
+- **2025-04-04**: Decision SpikeFormer Spike-Driven Transformer for Decision Making
+- **2025-04-03**: SPACE SPike-Aware Consistency Enhancement for Test-Time Adaptation in Spiking Neural Networks
+- **2025-04-02**: Market-Oriented Flow Allocation for Thermal Solar Plants An Auction-Based Methodology with Artificial Intelligence
+- **2025-04-02**: Bridge the Gap between SNN and ANN for Image Restoration
+- **2025-04-01**: QUEST A Quantized Energy-Aware SNN Training Framework for Multi-State Neuromorphic Devices
+- **2025-04-01**: Artificial Geographically Weighted Neural Network A Novel Framework for Spatial Analysis with Geographically Weighted Layers
+- **2025-03-31**: The Dirichlet problem for second-order elliptic equations in non-divergence form with continuous coefficients The two-dimensional case
+- **2025-03-31**: An ANN-Enhanced Approach for Flatness-Based Constrained Control of Nonlinear Systems
+- **2025-03-31**: ANNs-SaDE A Machine-Learning-Based Design Automation Framework for Microwave Branch-Line Couplers
+- **2025-03-31**: A discrete physics-informed training for projection-based reduced order models with neural networks
+- **2025-03-30**: Using Artificial Neural Networks to Optimize Acceleration Due to Gravity g Measurement in a Compound Pendulum Experiment
+- **2025-03-30**: LIRA A Learning-based Query-aware Partition Framework for Large-scale ANN Search
+- **2025-03-28**: MultiClaimNet A Massively Multilingual Dataset of Fact-Checked Claim Clusters
+- **2025-03-27**: Stochastic Engrams for Efficient Continual Learning with Binarized Neural Networks
+- **2025-03-27**: PilotANN Memory-Bounded GPU Acceleration for Vector Search
+- **2025-03-27**: LightSNN Lightweight Architecture Search for Sparse and Accurate Spiking Neural Networks
+- **2025-03-27**: Advancing Spatiotemporal Prediction using Artificial Intelligence Extending the Framework of Geographically and Temporally Weighted Neural Network
+- **2025-03-25**: Probing Rate-Dependent Liquid Shear Viscosity Using Combined Machine Learning and Non-Equilibrium Molecular Dynamics
+- **2025-03-24**: Perpetuities with light tails and the local dependence measure
+- **2025-03-24**: Off-diagonally symmetric alternating sign matrices
+- **2025-03-23**: VSAG An Optimized Search Framework for Graph-based Approximate Nearest Neighbor Search
+- **2025-03-21**: The maximum of the two dimensional Gaussian directed polymer in the subcritical regime
+- **2025-03-21**: Model-free front-to-end training of a large high performance laser neural network
+- **2025-03-21**: Architecture of Information
+- **2025-03-20**: Input-Triggered Hardware Trojan Attack on Spiking Neural Networks
+- **2025-03-20**: Efficient ANN-Guided Distillation Aligning Rate-based Features of Spiking Neural Networks through Hybrid Block-wise Replacement
+- **2025-03-19**: Constructive Quantum Logics
+- **2025-03-18**: Multi-Parameter Analysis of Li-ion Battery Degradation Integrating Optical Fiber Sensing with Differential State of Health Metrics
+- **2025-03-16**: Data-Driven Approximation of Binary-State Network Reliability Function Algorithm Selection and Reliability Thresholds for Large-Scale Systems
+- **2025-03-14**: Sharp well-posedness and ill-posedness of the stationary quasi-geostrophic equation
+- **2025-03-13**: ST-FlowNet An Efficient Spiking Neural Network for Event-Based Optical Flow Estimation
+- **2025-03-13**: Explainable Bayesian deep learning through input-skip Latent Binary Bayesian Neural Networks
+- **2025-03-13**: ES-Parkour Advanced Robot Parkour with Bio-inspired Event Camera and Spiking Neural Network
+- **2025-03-13**: DTA Dual Temporal-channel-wise Attention for Spiking Neural Networks
+- **2025-03-12**: Quasianalytic algebras with weakly smooth germs generate o-minimal structures
+- **2025-03-12**: Parameter estimation for the stochastic Burgers equation driven by white noise from local measurements
+- **2025-03-12**: Mapping fMRI Signal and Image Stimuli in an Artificial Neural Network Latent Space Bringing Artificial and Natural Minds Together
+- **2025-03-11**: Hierarchical autoregressive neural networks in three-dimensional statistical system
+- **2025-03-10**: Towards Experience Replay for Class-Incremental Learning in Fully-Binary Networks
+- **2025-03-10**: Inorganic Catalyst Efficiency Prediction Based on EAPCR Model A Deep Learning Solution for Multi-Source Heterogeneous Data
+- **2025-03-10**: Approximate Hausdorff Distance for Multi-Vector Databases
+- **2025-03-09**: SDTrack A Baseline for Event-based Tracking via Spiking Neural Networks
+- **2025-03-09**: Optimal Transport for Brain-Image Alignment Unveiling Redundancy and Synergy in Neural Information Processing
+- **2025-03-06**: Spiking Meets Attention Efficient Remote Sensing Image Super-Resolution with Attention Spiking Neural Networks
+- **2025-03-06**: PDX A Data Layout for Vector Similarity Search
+- **2025-03-05**: Towards Effective and Sparse Adversarial Attack on Spiking Neural Networks via Breaking Invisible Surrogate Gradients
+- **2025-03-05**: Temporal Separation with Entropy Regularization for Knowledge Distillation in Spiking Neural Networks
+- **2025-03-05**: SoftMatcha A Soft and Fast Pattern Matcher for Billion-Scale Corpus Searches
+- **2025-03-05**: Role of Databases in GenAI Applications
+- **2025-03-05**: Combined Physics and Event Camera Simulator for Slip Detection
+- **2025-03-04**: STAA-SNN Spatial-Temporal Attention Aggregator for Spiking Neural Networks
+- **2025-03-04**: Hierarchical Re-ranker Retriever (HRR)
+- **2025-03-03**: Relativistic BGK model of Marle for polyatomic gases near equilibrium
+- **2025-03-03**: Masses of blocks of the $Λ$-coalescent with dust via stochastic flows
+- **2025-03-03**: Cracking Vector Search Indexes
+- **2025-03-02**: Spiking World Model with Multi-Compartment Neurons for Model-based Reinforcement Learning
+- **2025-03-01**: Differential Coding for Training-Free ANN-to-SNN Conversion
+- **2025-03-01**: A Topology-Aware Localized Update Strategy for Graph-Based ANN Index
+- **2025-02-28**: Towards Reliable Vector Database Management Systems A Software Testing Roadmap for 2030
+- **2025-02-28**: Towards High-performance Spiking Transformers from ANN to SNN Conversion
+- **2025-02-28**: Scalable Overload-Aware Graph-Based Index Construction for 10-Billion-Scale Vector Similarity Search
+- **2025-02-28**: PersuasiveToM A Benchmark for Evaluating Machine Theory of Mind in Persuasive Dialogues
+- **2025-02-28**: Impact of Calibration and Position Errors on Astrophysical Parameters of the HI 21cm Signal
+- **2025-02-28**: Einleitung [Introduction]
+- **2025-02-28**: A novel boundary integrated neural networks for in plane fracture mechanics analysis of elastic and piezoelectric materials
+- **2025-02-27**: Representing Signs as Signs One-Shot ISLR to Facilitate Functional Sign Language Technologies
+- **2025-02-27**: Noise-Injected Spiking Graph Convolution for Energy-Efficient 3D Point Cloud Denoising
+- **2025-02-27**: Model-Free Privacy Preserving Power Flow Analysis in Distribution Networks
+- **2025-02-25**: Software implemented fault diagnosis of natural gas pumping unit based on feedforward neural network
+- **2025-02-25**: Predicting Long-term Urban Overheating and Their Mitigations from Nature Based Solutions Using Machine Learning and Field Measurements
+- **2025-02-25**: On the Privacy-Preserving Properties of Spiking Neural Networks with Unique Surrogate Gradients and Quantization Levels
+- **2025-02-25**: Breaking the symmetry in excess intersection and counting solutions of systems of polynomials
+- **2025-02-25**: Accelerating Graph Indexing for ANNS on Modern CPUs
+- **2025-02-24**: Machine learning and high dimensional vector search
+- **2025-02-23**: Category-Selective Neurons in Deep Networks Comparing Purely Visual and Visual-Language Models
+- **2025-02-23**: A Review of Artificial Intelligence Impacting Statistical Process Monitoring and Future Directions
+- **2025-02-22**: Indicated list colouring game on graphs
+- **2025-02-21**: Spatiotemporal Forecasting in Climate Data Using EOFs and Machine Learning Models A Case Study in Chile
+- **2025-02-21**: Explaining the Success of Nearest Neighbor Methods in Prediction
+- **2025-02-21**: BAN Neuroanatomical Aligning in Auditory Recognition between Artificial Neural Network and Human Cortex
+- **2025-02-20**: Temporal Misalignment in ANN-SNN Conversion and Its Mitigation via Probabilistic Spiking Neurons
+- **2025-02-20**: Binary and Multi-Class Intrusion Detection in IoT Using Standalone and Hybrid Machine and Deep Learning Models
+- **2025-02-20**: A Note on Efficient Privacy-Preserving Similarity Search for Encrypted Vectors
+- **2025-02-19**: Spiking Point Transformer for Point Cloud Classification
+- **2025-02-19**: SNN-Driven Multimodal Human Action Recognition via Event Camera and Skeleton Data Fusion
+- **2025-02-19**: In-Place Updates of a Graph Index for Streaming Approximate Nearest Neighbor Search
+- **2025-02-19**: Dynamic Activation with Knowledge Distillation for Energy-Efficient Spiking NN Ensembles
+- **2025-02-18**: Spiking Vision Transformer with Saccadic Attention
+- **2025-02-18**: Range Retrieval with Graph-Based Indices
+- **2025-02-18**: On the Privacy Risks of Spiking Neural Networks A Membership Inference Analysis
+- **2025-02-18**: Graph-Based Algorithms for Diverse Similarity Search
+- **2025-02-18**: Activation-wise Propagation A Universal Strategy to Break Timestep Constraints in Spiking Neural Networks for 3D Data Processing
+- **2025-02-17**: Implicit Geometric Descriptor-Enabled ANN Framework for a Unified Structure-Property Relationship in Architected Nanofibrous Materials
+- **2025-02-17**: GPU-accelerated Multi-relational Parallel Graph Retrieval for Web-scale Recommendations
+- **2025-02-14**: The Ann Arbor Architecture for Agent-Oriented Programming
+- **2025-02-14**: Gamma-Ray Bursts Calibrated from the Observational $H(z)$ Data in Artificial Neural Network Framework
+- **2025-02-13**: Privacy-Preserving Hybrid Ensemble Model for Network Anomaly Detection Balancing Security and Data Protection
+- **2025-02-13**: A note on limsup sets of annuli
+- **2025-02-12**: Inference-time sparse attention with asymmetric indexing
+- **2025-02-11**: DEG Efficient Hybrid Vector Search Using the Dynamic Edge Navigation Graph
+- **2025-02-10**: Scalable k-Means Clustering for Large k via Seeded Approximate Nearest-Neighbor Search
+- **2025-02-08**: Testing the cosmic distance duality relation using Type Ia supernovae and BAO observations
+- **2025-02-08**: Predictive Modeling of Classical and Quantum Mechanics Using Machine Learning A Case Study with TensorFlow
+- **2025-02-08**: Graph-Based Vector Search An Experimental Evaluation of the State-of-the-Art
+- **2025-02-08**: Do Spikes Protect Privacy Investigating Black-Box Model Inversion Attacks in Spiking Neural Networks
+- **2025-02-07**: The multiple Markov theorem on Angelesco sets
+- **2025-02-06**: FAS Fast ANN-SNN Conversion for Spiking Large Language Models
+- **2025-02-06**: Electrical Impedance Tomography for Anisotropic Media a Machine Learning Approach to Classify Inclusions
+- **2025-02-05**: STEMS Spatial-Temporal Mapping Tool For Spiking Neural Networks
+- **2025-02-03**: SQUASH Serverless and Distributed Quantization-based Attributed Vector Similarity Search
+- **2025-02-02**: A Turing Test for Artificial Nets devoted to model Human Vision
+- **2025-02-01**: Model-Free Predictive Control Introductory Algebraic Calculations, and a Comparison with HEOL and ANNs
+- **2025-02-01**: Machine Learning Models for Reinforced Concrete Pipes Condition Prediction The State-of-the-Art Using Artificial Neural Networks and Multiple Linear
+- **2025-01-31**: SpikingRTNH Spiking Neural Network for 4D Radar Object Detection
+- **2025-01-31**: Semilinear wave equations on extremal Reissner-Nordström black holes revisited
+- **2025-01-31**: Brain network science modelling of sparse neural networks enables Transformers and LLMs to perform as fully connected
+- **2025-01-31**: Application of Generative Adversarial Network (GAN) for Synthetic Training Data Creation to improve performance of ANN Classifier for extracting
+- **2025-01-30**: Sample Classification using Machine Learning-Assisted Entangled Two-Photon Absorption
+- **2025-01-30**: Benchmarking ANN extrapolations of the ground-state energies and radii of Li isotopes
+- **2025-01-29**: Real Time Scheduling Framework for Multi Object Detection via Spiking Neural Networks
+- **2025-01-29**: A quasianalytic class with weakly smooth germs
+- **2025-01-28**: Phase transitions for contact processes on one-dimensional networks
+- **2025-01-28**: Data-Driven vs Traditional Approaches to Power Transformer's Top-Oil Temperature Estimation
+- **2025-01-27**: Volume growths versus Sobolev inequalities
+- **2025-01-27**: Efficient Logit-based Knowledge Distillation of Deep Spiking Neural Networks for Full-Range Timestep Deployment
+- **2025-01-27**: ClearSight Human Vision-Inspired Solutions for Event-Based Motion Deblurring
+- **2025-01-26**: Mathematical analysis of the gradients in deep learning
+- **2025-01-26**: Blow-up of the 3-D compressible Navier-Stokes equations for monatomic gases
+- **2025-01-25**: A Floating Normalization Scheme for Deep Learning-Based Custom-Range Parameter Extraction in BSIM-CMG Compact Models
+- **2025-01-24**: Channel-wise Parallelizable Spiking Neuron with Multiplication-free Dynamics and Large Temporal Receptive Fields
+- **2025-01-24**: Additive Manufacturing Processes Protocol Prediction by Artificial Intelligence using X-ray Computed Tomography data
+- **2025-01-24**: $SpikePack$ Enhanced Information Flow in Spiking Neural Networks with High Hardware Compatibility
+- **2025-01-23**: Quantized Spike-driven Transformer
+- **2025-01-23**: On Storage Neural Network Augmented Approximate Nearest Neighbor Search
+- **2025-01-23**: Dual-Branch HNSW Approach with Skip Bridges and LID-Driven Optimization
+- **2025-01-23**: Categorical quotients for actions of groupoids on varieties
+- **2025-01-22**: On a Problem of Kac concerning Anisotropic Lacunary Sums
+- **2025-01-21**: TOFFE -- Temporally-binned Object Flow from Events for High-speed and Energy-Efficient Object Detection and Tracking
+- **2025-01-20**: TigerVector Supporting Vector Search in Graph Databases for Advanced RAGs
+- **2025-01-20**: Multi-Failure Localization in High-Degree ROADM-based Optical Networks using Rules-Informed Neural Networks
+- **2025-01-20**: Disentangling stellar atmospheric parameters in astronomical spectra using Generative Adversarial Neural Networks
+- **2025-01-20**: Artificial Neural Networks for Magnetoencephalography A review of an emerging field
+- **2025-01-16**: Lossless Compression of Vector IDs for Approximate Nearest Neighbor Search
+- **2025-01-15**: Learnable Sparsification of Die-to-Die Communication via Spike-Based Encoding
+- **2025-01-14**: Wasserstein distances and divergences of order $p$ by quantum channels
+- **2025-01-14**: Spiking Neural Network Accelerator Architecture for Differential-Time Representation using Learned Encoding
+- **2025-01-14**: Self-Attentive Spatio-Temporal Calibration for Precise Intermediate Layer Matching in ANN-to-SNN Distillation
+- **2025-01-13**: Interpretable machine-learning for predicting molecular weight of PLA based on artificial bee colony optimization algorithm and adaptive neurofuzzy
+- **2025-01-13**: Efficient Event-based Delay Learning in Spiking Neural Networks
+- **2025-01-12**: Improving the adaptive and continuous learning capabilities of artificial neural networks Lessons from multi-neuromodulatory dynamics
+- **2025-01-10**: kANNolo Sweet and Smooth Approximate k-Nearest Neighbors Search
+- **2025-01-10**: Hierarchical Serpentine-like Organic Crystal Optical Waveguides for Artificial Neural Networks
+- **2025-01-09**: CHASE A Native Relational Database for Hybrid Queries on Structured and Unstructured Data
+- **2025-01-09**: A Flexible and Scalable Framework for Video Moment Search
+- **2025-01-08**: Planarian Neural Networks Evolutionary Patterns from Basic Bilateria Shaping Modern Artificial Neural Network Architectures
+- **2025-01-08**: Lazutkin coordinates of the maximal symmetric periodic orbits on the ellipse
+- **2025-01-08**: From Conceptual Data Models to Multimodal Representation
+- **2025-01-06**: The Robustness of Spiking Neural Networks in Federated Learning with Compression Against Non-omniscient Byzantine Attacks
+- **2025-01-06**: Testing General Relativity using Large Scale Structures Photometric Redshift Surveys and Cosmic Microwave Background Lensing Effect
+- **2025-01-06**: On quasisymmetric mappings between ultrametric spaces
+- **2025-01-06**: Normalized Solutions on large smooth domains to the Schrödinger equation with potential and general nonlinearity Mass super-critical case
+- **2025-01-06**: An a-posteriori analysis of co-kurtosis PCA based dimensionality reduction using a neural ODE solver
+- **2025-01-05**: Investigating the Redshift Evolution of Lensing Galaxy Density Slopes via Model-Independent Distance Ratios
+- **2025-01-05**: Chameleon2++ An Efficient and Scalable Variant Of Chameleon Clustering
+- **2025-01-02**: Machine Learning-Based Prediction of ICU Readmissions in Intracerebral Hemorrhage Patients Insights from the MIMIC Databases
+- **2025-01-01**: Central limit theorem for random walks in divergence free random drift field -- revisited
