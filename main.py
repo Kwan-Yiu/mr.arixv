@@ -13,7 +13,7 @@ BASE_SEARCH_QUERY = '(ti:"vector search" OR abs:"vector search" OR ti:"ANNS" OR 
 # Search start date
 START_DATE = date(2025, 1, 1)
 # Directory to save the results
-OUTPUT_DIR = "arxiv_vector_search_papers"
+OUTPUT_DIR = "papers"
 # Log file to record completed dates
 COMPLETED_DATES_LOG = "completed_dates.txt"
 # arXiv API URL
