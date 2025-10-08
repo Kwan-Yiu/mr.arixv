@@ -30,7 +30,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run Python downloader
-        run: python arxiv_downloader.py
+        run: python main.py
 
       - name: Update README.md from paper folder
         run: python update_readme.py
