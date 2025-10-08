@@ -2,131 +2,174 @@
 import os
 import requests
 import xml.etree.ElementTree as ET
-from datetime import datetime
+from datetime import datetime, date, timedelta
 import time
+import re
 
 # --- Configuration ---
-# Search keywords. You can modify or add more keywords.
-# ti: title, abs: abstract, OR means or
-SEARCH_QUERY = '(ti:"vector search" OR abs:"vector search" OR ti:"ANNS" OR abs:"ANNS" OR ti:"approximate nearest neighbor" OR abs:"approximate nearest neighbor")'
-# Target year
-TARGET_YEAR = 2025
-# Output directory for saving results
-OUTPUT_DIR = "arxiv_vector_search_papers_" + str(TARGET_YEAR)
+# Basic search query. You can modify or add more keywords.
+# ti: title, abs: abstract, OR: logical OR
+BASE_SEARCH_QUERY = '(ti:"vector search" OR abs:"vector search" OR ti:"ANNS" OR abs:"ANNS" OR ti:"approximate nearest neighbor" OR abs:"approximate nearest neighbor")'
+# Search start date
+START_DATE = date(2025, 1, 1)
+# Directory to save the results
+OUTPUT_DIR = "arxiv_vector_search_papers"
+# Log file to record completed dates
+COMPLETED_DATES_LOG = "completed_dates.txt"
 # arXiv API URL
 ARXIV_API_URL = "http://export.arxiv.org/api/query"
-# Number of papers to fetch per API request
+# Number of results per API request
 RESULTS_PER_REQUEST = 100
 
-def search_and_download_papers():
-    """
-    Search and download papers that match the criteria
-    """
-    print("Script started...")
-    print(f"Search year: {TARGET_YEAR}")
-    print(f"Search keywords: {SEARCH_QUERY}")
-    print("-" * 30)
+def load_completed_dates():
+    """Loads completed dates from the log file."""
+    if not os.path.exists(COMPLETED_DATES_LOG):
+        return set()
+    with open(COMPLETED_DATES_LOG, 'r', encoding='utf-8') as f:
+        return set(line.strip() for line in f)
 
-    # 1. Create directory for saving PDFs
-    if not os.path.exists(OUTPUT_DIR):
-        os.makedirs(OUTPUT_DIR)
-        print(f"Created directory: {OUTPUT_DIR}")
+def mark_date_as_completed(day_str):
+    """Marks a date as completed and writes it to the log file."""
+    with open(COMPLETED_DATES_LOG, 'a', encoding='utf-8') as f:
+        f.write(day_str + '\n')
+
+def sanitize_filename(title):
+    """Cleans the title to be used as a safe filename."""
+    # 1. Remove characters from the title that are not suitable for a filename
+    sanitized = re.sub(r'[\\/*?:"<>|]', "", title)
+    # 2. Replace multiple spaces with a single space
+    sanitized = " ".join(sanitized.split())
+    # 3. Truncate long filenames to avoid errors (keep 150 characters)
+    max_len = 150
+    if len(sanitized) > max_len:
+        # Avoid cutting words in the middle
+        sanitized = sanitized[:max_len].rsplit(' ', 1)[0] 
+    return sanitized.strip()
+
+def search_and_download_for_day(current_date):
+    """Searches and downloads papers for a specific date."""
+    date_str_compact = current_date.strftime('%Y%m%d')
+    # arXiv API requires the date range format to be YYYYMMDDHHMMSS
+    start_of_day = f"{date_str_compact}000000"
+    end_of_day = f"{date_str_compact}235959"
+    
+    # Construct the final search query including the date range
+    date_query = f'submittedDate:[{start_of_day} TO {end_of_day}]'
+    full_query = f'({BASE_SEARCH_QUERY}) AND {date_query}'
+    
+    print(f"Search query: {full_query}")
 
     start_index = 0
-    total_downloaded = 0
+    total_downloaded_today = 0
     
     while True:
-        # 2. Build API request parameters
         params = {
-            'search_query': SEARCH_QUERY,
+            'search_query': full_query,
             'start': start_index,
             'max_results': RESULTS_PER_REQUEST,
             'sortBy': 'submittedDate',
-            'sortOrder': 'descending'
+            'sortOrder': 'ascending'
         }
 
-        print(f"\nRequesting {RESULTS_PER_REQUEST} papers starting from index {start_index}...")
+        print(f"  Requesting from index {start_index}...")
 
         try:
-            # 3. Send request to arXiv API
             response = requests.get(ARXIV_API_URL, params=params)
-            response.raise_for_status() # Raise exception if request fails
+            response.raise_for_status()
 
-            # 4. Parse returned XML data
             root = ET.fromstring(response.content)
             entries = root.findall('{http://www.w3.org/2005/Atom}entry')
 
             if not entries:
-                print("No more papers found.")
+                print("  No more papers for this date or page.")
                 break
 
-            found_in_year = 0
             for entry in entries:
-                # Extract paper publication date
-                published_date_str = entry.find('{http://www.w3.org/2005/Atom}published').text
-                published_date = datetime.strptime(published_date_str, '%Y-%m-%dT%H:%M:%SZ')
-
-                # 5. Check if paper was published in target year
-                if published_date.year == TARGET_YEAR:
-                    found_in_year += 1
+                title = entry.find('{http://www.w3.org/2005/Atom}title').text.strip().replace('\n', ' ')
+                arxiv_id = entry.find('{http://www.w3.org/2005/Atom}id').text.split('/abs/')[-1]
+                pdf_link_element = entry.find('{http://www.w3.org/2005/Atom}link[@title="pdf"]')
+                
+                if pdf_link_element is None:
+                    print(f"    Warning: PDF link not found for paper '{title}' (ID: {arxiv_id}). Skipping.")
+                    continue
                     
-                    # Extract title, ID and PDF link
-                    title = entry.find('{http://www.w3.org/2005/Atom}title').text.strip().replace('\n', ' ')
-                    arxiv_id = entry.find('{http://www.w3.org/2005/Atom}id').text.split('/abs/')[-1]
-                    pdf_link_element = entry.find('{http://www.w3.org/2005/Atom}link[@title="pdf"]')
-                    
-                    if pdf_link_element is None:
-                        print(f"Warning: Paper '{title}' (ID: {arxiv_id}) has no PDF link, skipping.")
-                        continue
-                        
-                    pdf_url = pdf_link_element.get('href')
-                    
-                    # Build filename, replace characters that might cause problems
-                    sanitized_title = "".join(c for c in title if c.isalnum() or c in (' ', '.', '_')).rstrip()
-                    filename = f"{arxiv_id}_{sanitized_title}.pdf"
-                    filepath = os.path.join(OUTPUT_DIR, filename)
+                pdf_url = pdf_link_element.get('href')
+                
+                # Build the filename using the correct date prefix and the sanitized title
+                sanitized_title = sanitize_filename(title)
+                filename = f"{current_date.strftime('%Y%m%d')}_{sanitized_title}.pdf"
+                filepath = os.path.join(OUTPUT_DIR, filename)
 
-                    # 6. Download if file doesn't exist
-                    if not os.path.exists(filepath):
-                        print(f"  -> Preparing to download: '{title}' (ID: {arxiv_id})")
-                        try:
-                            pdf_response = requests.get(pdf_url)
-                            pdf_response.raise_for_status()
-                            with open(filepath, 'wb') as f:
-                                f.write(pdf_response.content)
-                            print(f"     Download successful: {filename}")
-                            total_downloaded += 1
-                        except requests.exceptions.RequestException as e:
-                            print(f"     Download failed: {title}. Error: {e}")
-                    else:
-                        print(f"  -> File already exists, skipping: '{title}'")
-
-                # If paper publication date is earlier than target year, since results are sorted by date descending, no need to check subsequent papers
-                elif published_date.year < TARGET_YEAR:
-                    print(f"Found papers from {published_date.year}, stopping search.")
-                    # Set a flag to break out of outer loop
-                    entries = [] 
-                    break
-
-            if not found_in_year and entries:
-                 print(f"No papers from {TARGET_YEAR} found in this batch of {len(entries)} papers.")
-
-            # Update start index for next request
-            start_index += len(entries)
+                if not os.path.exists(filepath):
+                    print(f"    -> Preparing to download: '{title}'")
+                    try:
+                        pdf_response = requests.get(pdf_url)
+                        pdf_response.raise_for_status()
+                        with open(filepath, 'wb') as f:
+                            f.write(pdf_response.content)
+                        print(f"       Successfully downloaded: {filename}")
+                        total_downloaded_today += 1
+                    except requests.exceptions.RequestException as e:
+                        print(f"       Download failed for: {title}. Error: {e}")
+                else:
+                    print(f"    -> File already exists, skipping: '{title}'")
             
-            # Wait between requests to comply with arXiv API usage rules
-            time.sleep(3)
+            # If the number of results returned is less than requested, it's the last page
+            if len(entries) < RESULTS_PER_REQUEST:
+                break
+            
+            start_index += len(entries)
+            time.sleep(3) # Adhere to API usage rules
 
         except requests.exceptions.RequestException as e:
-            print(f"Error occurred when requesting arXiv API: {e}")
+            print(f"  An error occurred while requesting the arXiv API: {e}")
             break
         except ET.ParseError as e:
-            print(f"Error occurred when parsing XML data: {e}")
+            print(f"  An error occurred while parsing XML data: {e}")
             break
+            
+    return total_downloaded_today
+
+def main():
+    """Main function to loop through days and execute download tasks."""
+    print("Script started...")
+    print(f"Base search query: {BASE_SEARCH_QUERY}")
+    print("-" * 30)
+
+    if not os.path.exists(OUTPUT_DIR):
+        os.makedirs(OUTPUT_DIR)
+        print(f"Created directory: {OUTPUT_DIR}")
+
+    completed_dates = load_completed_dates()
+    print(f"Loaded {len(completed_dates)} completed dates.")
+
+    current_date = START_DATE
+    end_date = date.today()
+    total_downloaded_all_time = 0
+
+    while current_date <= end_date:
+        date_str = current_date.strftime('%Y-%m-%d')
+        
+        if date_str in completed_dates:
+            print(f"\nDate {date_str} has already been processed. Skipping.")
+            current_date += timedelta(days=1)
+            continue
+            
+        print(f"\n===== Processing date: {date_str} =====")
+        
+        downloaded_today = search_and_download_for_day(current_date)
+        
+        mark_date_as_completed(date_str)
+        print(f"===== Finished processing date {date_str}. Newly downloaded {downloaded_today} papers today. =====")
+        
+        total_downloaded_all_time += downloaded_today
+        current_date += timedelta(days=1)
+        time.sleep(3) # Pause briefly after processing a day
 
     print("-" * 30)
     print("All tasks completed!")
-    print(f"Total downloaded {total_downloaded} new papers.")
+    print(f"A total of {total_downloaded_all_time} new papers were downloaded in this run.")
 
 if __name__ == '__main__':
-    search_and_download_papers()
+    main()
+
