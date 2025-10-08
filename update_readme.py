@@ -2,7 +2,7 @@
 import os
 from datetime import datetime
 
-PAPER_DIR = "paper"
+PAPER_DIR = "papers"
 README_FILE = "README.md"
 
 def generate_readme_content():
