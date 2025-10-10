@@ -2,7 +2,7 @@
 
 A curated list of papers related to vector search and ANNS, automatically updated.
 
-Last updated: 2025-10-09 18:17:33
+Last updated: 2025-10-10 18:17:12
 
 ---
 
